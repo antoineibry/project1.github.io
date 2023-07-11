@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+    font-family: "montserrat",sans-serif;
+
+  /*  background-color: #24252A;*/
+}
+
+li,a,button{
+    font-family: "montserrat",sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+    background-color: #0056d2;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.text-box{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:15%;
+    color:#fff;
+    text-align:center;
+}
+
+.text-box h1{
+    font-size: 40px;
+}
+
+.text-box h2{
+    font-size: 30px;
+    font-weight:500;
+
+}
+
+.banner{
+    padding:2% 0;
+    width:100%;
+    background-image:linear-gradient(rgba(25, 39, 94, 0.7), rgba(25, 39, 94, 0.7)), url(images/banner.png);
+    background-position: center;
+    background-size:cover;
+}
+
+.logo{
+    cursor:pointer;
+    width: 230px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block; /*side by side*/
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    font-weight: 600;
+}
+
+button{
+    padding: 9px 25px;
+    background-color:rgba(255,255,255,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; /*0s delay*/
+    color:#0056d2;
+    font-weight:600;
+}
+
+button:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.intro{
+    background-color: #edf0f1;
+    display:flex;
+    justify-content: space-between;
+    padding: 8% 6%;
+}
+
+.intro img{
+    border-radius:25%;
+    align-items:center;
+    margin-left:15%;
+
+}
+
+.intro .abouttext{
+    width:50%;
+    text-align:left;
+    margin-top:5%;
+    font-weight:500;
+    font-family: "montserrat",sans-serif;
+    color:black;
+    font-size:22px;
+}
+
+.intro .abouttext1{
+    font-size:22px;
+}
+
+.intro .abouttext2{
+    font-size:30px;
+    margin-top:30px;
+    font-weight:600;
+}
+
+.intro .abouttext3{
+    font-size:20px;
+    font-weight:600;
+}
+
+.booking-section{
+    min-height: 80vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+ 
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.booking-box{
+    height:47vh;
+    width:50%;
+    background-color: #0056d2;
+    border-radius: 6px;
+    padding: 20px 40px 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.topic-text{
+    color: white;
+    font-weight: 600;
+    font-size:19px;
+}
+
+.booking-form{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box{
+    height:50px;
+    width:100%;
+    margin:12px 0;
+}
+
+.input-box input, .input-box textarea, .input-box select{
+    height:100%;
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:16px;
+    background:#ffffff;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize:none;
+    color:#777;
+}
+
+.booking-section .button{
+    display:inline-block;
+    margin-top: 20px;
+    color: #0056d2;
+    background-color:white;
+    font-size: 20px;
+    font-weight:600;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background: #ffffff;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+    display:flex;
+    justify-content: center;
+}
+
+.content .container{
+    width:90%;
+    align-items:center;
+    justify-content: space-between;
+}
+
+footer{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    width:100%;
+    height: 40vh;
+    background: #0056d2;
+    text-align: center;
+}
+
+.social-media{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    width:50%;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.social-media a{
+    width: 80px;;
+    height:80px;
+    line-height:40px;
+    display:inline-block;
+}
+
+
+
+
